@@ -1,20 +1,7 @@
-# JD Apps · Website v3
+# JD Apps 4.0
 
-Static GitHub Pages site for `jdavilaf.github.io`.
+Official game icons and screenshots for Pulse Loop, Eggscape and ONE SECOND.
 
-## Deploy
+Upload all contents to the root of jdavilaf.github.io. Keep `app-ads.txt` at the domain root.
 
-Upload **the contents** of this folder to the repository root on the `main` branch. Keep GitHub Pages set to `main / (root)`.
-
-## Included
-
-- Home page with three game cards
-- Dedicated pages under `/games/pulse-loop/`, `/games/eggscape/`, `/games/one-second/`
-- `app-ads.txt` at the root (unchanged publisher ID)
-- SVG site favicon
-
-## Images
-
-The game art is illustrative CSS artwork, **not official icons**. Screenshot frames are explicitly labeled placeholders. To add official artwork, supply exported icons and approved screenshots from each game's App Store listing or project assets.
-
-Existing support sites remain separate and unchanged.
+Game assets are in `/assets/<game>/`. No changes to existing support sites.

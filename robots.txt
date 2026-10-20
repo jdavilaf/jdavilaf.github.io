@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://jdavilaf.github.io/sitemap.xml

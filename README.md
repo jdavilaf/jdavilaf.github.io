@@ -1,12 +1,18 @@
-# JD Apps 6.0 — Brand identity
+# JD Apps 7.0 — SEO, accessibility and performance
 
-Includes the three game pages and all official game assets from version 5, plus a new JD Apps brand mark, matching browser favicon, Apple touch icon and social-sharing image.
+Static GitHub Pages site for JD Apps. Upload **the contents** of this archive to the root of `jdavilaf.github.io`.
 
-## Publish
-Upload **the contents** of this folder to the root of the `jdavilaf.github.io` GitHub Pages repository, retaining all directories. Do not upload the enclosing folder itself.
+## Improvements
+- Canonical URLs and page-specific descriptions, Open Graph and Twitter metadata.
+- `sitemap.xml` and `robots.txt`.
+- JSON-LD Organization and VideoGame structured data; no invented reviews or ratings.
+- Explicit image dimensions to reduce layout shifts, lazy-loading for offscreen images.
+- Navigation landmark labels.
+- All existing app pages, assets, links and galleries retained.
+- `app-ads.txt` unchanged.
 
-## AdMob
-The existing `app-ads.txt` remains unchanged. Verify `https://jdavilaf.github.io/app-ads.txt` after publishing.
-
-## Notes
-ONE SECOND remains marked coming soon while App Store review is pending. Existing game support URLs are preserved.
+## Check after deployment
+- `/sitemap.xml` and `/robots.txt` load correctly.
+- `/app-ads.txt` still contains your AdMob publisher line.
+- Test on mobile and desktop, including gallery keyboard navigation.
+- Optionally submit `https://jdavilaf.github.io/sitemap.xml` to Google Search Console.

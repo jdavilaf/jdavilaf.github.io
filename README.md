@@ -1,18 +1,13 @@
-# JD Apps 7.0 — SEO, accessibility and performance
+# JD Apps 7.2 — Contact and custom domain
 
-Static GitHub Pages site for JD Apps. Upload **the contents** of this archive to the root of `jdavilaf.github.io`.
+Updated from the validated JD Apps 7.1 release.
 
-## Improvements
-- Canonical URLs and page-specific descriptions, Open Graph and Twitter metadata.
-- `sitemap.xml` and `robots.txt`.
-- JSON-LD Organization and VideoGame structured data; no invented reviews or ratings.
-- Explicit image dimensions to reduce layout shifts, lazy-loading for offscreen images.
-- Navigation landmark labels.
-- All existing app pages, assets, links and galleries retained.
-- `app-ads.txt` unchanged.
+- Official website: https://playjdapps.com/
+- General inquiries: hello@playjdapps.com
+- Game support: support@playjdapps.com
+- Updated canonical/OG URLs, sitemap and robots.txt.
+- Existing external support links remain unchanged.
+- The existing app-ads.txt file is preserved byte-for-byte.
+- The featured Pulse Loop layout fix from 7.1 is retained.
 
-## Check after deployment
-- `/sitemap.xml` and `/robots.txt` load correctly.
-- `/app-ads.txt` still contains your AdMob publisher line.
-- Test on mobile and desktop, including gallery keyboard navigation.
-- Optionally submit `https://jdavilaf.github.io/sitemap.xml` to Google Search Console.
+Upload the **contents** of this folder to the root of the `jdavilaf.github.io` repository, preserving subdirectories. Verify the custom domain in GitHub Pages and confirm both the website and `/app-ads.txt` remain reachable.

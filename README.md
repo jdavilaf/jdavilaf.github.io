@@ -1,15 +1,12 @@
-# JD Apps — Website v5.0
+# JD Apps 6.0 — Brand identity
 
-Static GitHub Pages website for Pulse Loop, Eggscape and ONE SECOND.
+Includes the three game pages and all official game assets from version 5, plus a new JD Apps brand mark, matching browser favicon, Apple touch icon and social-sharing image.
 
-## Deploy
-Upload the **contents** of this ZIP to the root of the public `jdavilaf.github.io` repository. Keep `assets/` and `games/` directory structures intact. Enable GitHub Pages on `main` / root.
+## Publish
+Upload **the contents** of this folder to the root of the `jdavilaf.github.io` GitHub Pages repository, retaining all directories. Do not upload the enclosing folder itself.
 
-## What changed in v5
-- Featured Pulse Loop editorial section on the homepage with real screenshots.
-- Refined hover states and responsive layouts.
-- Accessible screenshot viewer on each game page (keyboard arrows and Escape, focus handling, reduced motion support).
-- All original links, assets, and `app-ads.txt` retained.
+## AdMob
+The existing `app-ads.txt` remains unchanged. Verify `https://jdavilaf.github.io/app-ads.txt` after publishing.
 
-## Advertising
-`app-ads.txt` must remain available at `https://jdavilaf.github.io/app-ads.txt`.
+## Notes
+ONE SECOND remains marked coming soon while App Store review is pending. Existing game support URLs are preserved.

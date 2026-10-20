@@ -1,17 +1,20 @@
-# JD Apps — GitHub Pages
+# JD Apps · Website v3
 
-This repository publishes the developer website at https://jdavilaf.github.io/ and the AdMob authorization file at https://jdavilaf.github.io/app-ads.txt.
+Static GitHub Pages site for `jdavilaf.github.io`.
 
-## Publish
-1. Create a **public** GitHub repository named exactly `jdavilaf.github.io` under the `jdavilaf` account.
-2. Upload `index.html`, `app-ads.txt`, and `README.md` to the repository root.
-3. Go to **Settings → Pages → Build and deployment**, choose **Deploy from a branch**, `main`, `/ (root)`, then save.
-4. Wait for deployment. Check both URLs above; `app-ads.txt` must display a single plain-text line.
-5. In App Store Connect, set the **Marketing URL** of each relevant app to `https://jdavilaf.github.io/`, leaving existing support URLs unchanged.
-6. Once the developer website appears in the public App Store listing, use **Check for updates** in AdMob's app-ads.txt verification section.
+## Deploy
 
-## Future apps
-Add new app cards to `index.html`. If all apps use the same AdMob publisher, the existing line in `app-ads.txt` does not need to be repeated. For additional authorized ad sellers, add their exact lines separately.
+Upload **the contents** of this folder to the repository root on the `main` branch. Keep GitHub Pages set to `main / (root)`.
 
-## Notes
-The Pulse Loop App Store URL is based on App Store ID `6760823635`; check it after publication. ONE SECOND is listed as coming soon without an unverified store link.
+## Included
+
+- Home page with three game cards
+- Dedicated pages under `/games/pulse-loop/`, `/games/eggscape/`, `/games/one-second/`
+- `app-ads.txt` at the root (unchanged publisher ID)
+- SVG site favicon
+
+## Images
+
+The game art is illustrative CSS artwork, **not official icons**. Screenshot frames are explicitly labeled placeholders. To add official artwork, supply exported icons and approved screenshots from each game's App Store listing or project assets.
+
+Existing support sites remain separate and unchanged.

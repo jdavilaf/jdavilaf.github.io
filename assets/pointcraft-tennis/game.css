@@ -1,0 +1,7 @@
+.pointcraft-hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(180px,300px);align-items:start;gap:clamp(24px,7vw,78px)}
+.pointcraft-icon{display:block;border-radius:24%;margin:0 0 22px}
+.pointcraft-shot{display:block;width:100%;height:auto;border:1px solid var(--stroke);border-radius:22px}
+.pointcraft-actions{display:flex;flex-wrap:wrap;gap:10px;margin:24px 0 8px}
+.pointcraft-actions a{border:1px solid var(--stroke);border-radius:12px;padding:8px 14px;font-weight:700;text-decoration:none}
+.pointcraft-actions a:first-child{background:var(--accent);color:var(--bg);border-color:var(--accent)}
+@media(max-width:650px){.pointcraft-hero{grid-template-columns:1fr}.pointcraft-shot{max-width:280px;margin-inline:auto}}
